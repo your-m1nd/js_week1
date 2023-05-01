@@ -38,12 +38,18 @@ const name = "Кот";
 console.log("Привет, "+"Кот");
 
 //Задание 7
-
+let time;
+time=34;
+//console.log(`'Старт поездки. Осталось минут: + ${time}'`);
+//time=15;
 
 //Задание 8
 
 let fahrenheit=451;
 let celcius=(`${(fahrenheit-32)/1.8}`);
-console.log(`'${fahrenheit} градуса по Фаренгейту — это ${celcius} градуса по Цельсию.'`);
-
+let _fahrenheit_;
+let _celcius_;
+_fahrenheit_=fahrenheit;
+_celcius_=celcius;
+console.log(`'${_fahrenheit_} градуса по Фаренгейту — это ${_celcius_} градуса по Цельсию.'`);
 
