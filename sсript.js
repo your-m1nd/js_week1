@@ -40,8 +40,24 @@ console.log("Привет, "+"Кот");
 //Задание 7
 let time;
 time=34;
-//console.log(`'Старт поездки. Осталось минут: + ${time}'`);
-//time=15;
+console.log('Старт поездки. Осталось минут: ' + time);
+time=19;
+console.log('Немного сториз в соцсетях. Осталось минут: '+ time);
+time=9;
+console.log('Немного не новостей, но событий. Осталось минут: '+ time);
+time=0;
+console.log("Вы приехали. Добро пожаловать в Москву.");
+
+
+
+let time1;
+time1=34;
+console.log('Старт поездки. Осталось минут: ' + time1);
+//console.log(`${time1-15}`);
+console.log('Немного сториз в соцсетях. Осталось минут: ' + `${time1-15}`);
+console.log('Немного не новостей, но событий. Осталось минут: '+ `${time1-15-10}`);
+time1=0;
+console.log("Вы приехали. Добро пожаловать в Москву.");
 
 //Задание 8
 
@@ -51,5 +67,5 @@ let _fahrenheit_;
 let _celcius_;
 _fahrenheit_=fahrenheit;
 _celcius_=celcius;
-console.log(`'${_fahrenheit_} градуса по Фаренгейту — это ${_celcius_} градуса по Цельсию.'`);
+console.log(`${_fahrenheit_} градуса по Фаренгейту — это ${_celcius_} градуса по Цельсию.`);
 
