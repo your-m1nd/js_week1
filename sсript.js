@@ -17,7 +17,7 @@ let chat="128";
 let like="254";
 let read="137";
 let youtube="201";
-console.log(128+254+137+201);
+console.log((128+254+137+201)/60);
 
 //Задание 4
 
